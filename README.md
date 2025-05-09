@@ -26,6 +26,8 @@ comment,emotion
 ...
 ```
 
+Acesse o dataset [aqui](https://github.com/SpotifaiI/natural-language-emotioner/blob/main/comments.csv).
+
 ## Repositórios
 
 * [IA](https://github.com/SpotifaiI/natural-language-emotioner)
