@@ -16,6 +16,16 @@ O principal objetivo desse projeto é ser um identificador de emoções, ao qual
 
 O treinamento do modelo foi feito a partir de um dataset de comentários, com pouco mais de 3000 linhas, que possui então duas colunas: comentário e emoção relacionada. Esse treinamento é feito no momento de inicialização do serviço, então todas as requisições feitas usam o mesmo modelo como base, a partir de quando o server foi iniciado.
 
+### Exemplo do dataset
+
+```csv
+comment,emotion
+"Amei demais esse vídeo, me deixou muito feliz!",alegria
+"Que notícia triste, fiquei bem chateado agora.",tristeza
+"Nossa, que susto! Não esperava por essa.",surpresa
+...
+```
+
 ## Repositórios
 
 * [IA](https://github.com/SpotifaiI/natural-language-emotioner)
